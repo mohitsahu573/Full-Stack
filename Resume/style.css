@@ -1,0 +1,92 @@
+/* Basic Page Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+    list-style: 24px;
+}
+
+/* Header Banner */
+.header {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    color: #38bdf8;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.contact-info {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Box */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    color: #0284c7;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.section h3 {
+    margin-bottom: 2px;
+    font-size: 16px;
+    color: #1e293b;
+}
+
+.section hr {
+    border: none;
+    height: 2px;
+    background-color: #0284c7;
+    margin-bottom: 12px;
+}
+
+/* Lists and Text */
+p {
+    margin-top: 2px;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
