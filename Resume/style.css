@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6dede;
     color: #333333;
     line-height: 1.6;
     list-style: 24px;
@@ -23,7 +23,7 @@ body {
 }
 
 .subtitle {
-    color: #38bdf8;
+    color: #35afe4;
     margin-top: 5px;
     font-size: 16px;
 }
