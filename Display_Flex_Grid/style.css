@@ -43,7 +43,7 @@
     border: 1px solid black;
     display: grid;
     /* grid-template-columns: 200px 200px 200px 200px; */
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto  auto auto;
     gap: 20px;
     justify-content: center;
     padding: 40px;
