@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400..700&family=Shadows+Into+Light&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hw
+{
+
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid black;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+   background-color: green;
+   width: 2s 1s;
+    transition: width 2s,background-color 2s;
+    
+}
+
+#hw:hover{
+    width: 600px;
+    transition: width 2s;
+    background-color: red;
+    width: 2s 1s;
+     /* background-color: 2s 1s; */
+
+}
+
+#welcome{
+   color: red;
+
+}
+
+#welcome::after{
+
+    content: "❤️";
+
+}
+
+.d::before{
+
+    content: "😁";
+}
+
+#box1 ,#box2,#box3,#box4,#box5{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+#box1:hover{
+    width: 100px;
+   
+    transition: all 2s linear;
+}
+
+#box2:hover{
+    width: 100px;
+   
+    transition: all 2s ease;
+}
+
+#box3:hover{
+    width: 100px;
+   
+    transition: all 2s ease-in;
+}
+
+#box4:hover{
+    width: 100px;
+    
+    transition: all 2s ease-in-out;
+}
+
+#box5:hover{
+    width: 100px;
+    
+    transition: all 2s ease-out;
+}
+
+
